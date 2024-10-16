@@ -1,0 +1,24 @@
+.fastfit-container {
+  background-color: #d0f4de;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  position: relative; /* to position the back button */
+}
+
+.back-home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #6fcf97;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.back-home-button:hover {
+  background-color: #57a773;
+}

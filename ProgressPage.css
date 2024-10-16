@@ -1,0 +1,68 @@
+.progress-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #e8f5e9;
+    height: 100vh;
+}
+
+.goals-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.current-goals, .completed-goals {
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.current-goals h2, .completed-goals h2 {
+    margin-bottom: 10px;
+    color: #388e3c;
+}
+
+.current-goals ul, .completed-goals ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.current-goals li, .completed-goals li {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.current-goals li:hover, .completed-goals li:hover {
+    background-color: #a5d6a7;
+}
+
+.charts-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.progress-chart, .fastfit-chart {
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.progress-chart h2, .fastfit-chart h2 {
+    margin-bottom: 10px;
+    color: #388e3c;
+}
+
+p {
+    color: #388e3c;
+}

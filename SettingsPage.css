@@ -1,0 +1,58 @@
+.settings-container {
+    background-color: #e6ffe6;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .settings-section {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #006600;
+  }
+  
+  h2 {
+    color: #009900;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #009900;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #007700;
+  }
+  
+  .delete-account-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-account-button:hover {
+    background-color: darkred;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  

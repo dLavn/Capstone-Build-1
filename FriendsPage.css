@@ -1,0 +1,111 @@
+.friends-container {
+    position: relative;
+    background-color: #e6ffe6; /* Light green background */
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .leaderboard {
+    margin-bottom: 30px;
+  }
+  
+  .leaderboard ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .leaderboard li {
+    background-color: #f4fff4; /* Very light green background */
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #a8d5a8; /* Light green border */
+    border-radius: 5px;
+  }
+  
+  .friend-requests {
+    margin-bottom: 30px;
+  }
+  
+  .request {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4fff4;
+    padding: 10px;
+    border: 2px solid #a8d5a8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .friend-requests button {
+    background-color: #4caf50; /* Green button */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .friend-requests button:hover {
+    background-color: #45a049;
+  }
+  
+  .add-friend {
+    margin-bottom: 30px;
+  }
+  
+  .add-friend form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-friend input {
+    padding: 10px;
+    border: 2px solid #a8d5a8;
+    border-radius: 5px;
+    background-color: #f4fff4;
+    margin-right: 10px;
+    width: 60%;
+    font-size: 16px;
+  }
+  
+  .add-friend button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-friend button:hover {
+    background-color: #45a049;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #45a049;
+  }

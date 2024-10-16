@@ -1,0 +1,61 @@
+/* src/HomePage.css */
+.home-container {
+  background-color: #ccffcc; /* Light green background for the home page */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #99e699; /* Light green background for the navbar */
+  padding: 15px;
+}
+
+.navbar h1 {
+  color: #004d00; /* Dark green for the logo/title */
+  margin: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: #004d00; /* Dark green for the links */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+  color: #006600; /* Slightly darker green on hover */
+}
+
+.welcome-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.welcome-section h2 {
+  font-size: 32px;
+  color: #006600; /* Darker green for the welcome message */
+}
+
+.welcome-section p {
+  font-size: 18px;
+  color: #004d00; /* Dark green for the welcome description */
+}
+
+  

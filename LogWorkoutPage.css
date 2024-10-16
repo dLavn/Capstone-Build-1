@@ -1,0 +1,62 @@
+.logworkout-container {
+    background-color: #e6ffe6; /* Light green background */
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logworkout-container h1 {
+    color: #333;
+  }
+  
+  form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #a8d5a8; /* Light green border */
+    border-radius: 5px;
+    background-color: #f4fff4; /* Very light green input background */
+    font-size: 16px;
+  }
+  
+  form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #45a049;
+  }
+  
+  
